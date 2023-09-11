@@ -2,8 +2,8 @@
 
 # Default programs
 export EDITOR="micro"
-export BROWSER="wslview"
-export TERMINAL="windows-terminal"
+# export BROWSER="wslview"
+# export TERMINAL="windows-terminal"
 
 # XDG Base Directory
 export XDG_CACHE_HOME="$HOME/.cache"
@@ -13,7 +13,7 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_RUNTIME_DIR="/run/user/$UID"
 
 # XDG_RUNTIME_DIR
-export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
+# export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
 
 # XDG_CACHE_HOME
 export HISTFILE="$XDG_CACHE_HOME/zsh_history"
