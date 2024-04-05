@@ -8,7 +8,9 @@
 .config/micro/buffers/
 .config/nemo/desktop-metadata
 .config/pulse/
+.gtkrc-2.0
 .local/share/cinnamon/applets/
+.local/share/cinnamon/extensions/
 .local/share/gnupg/*
 !.local/share/gnupg/gpg-agent.conf
 .local/share/gvfs-metadata/

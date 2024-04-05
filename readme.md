@@ -65,12 +65,20 @@ gpg --edit-key <KEY_ID> # Press Tab for autocompletion
 
 ```sh
 yay -S glow xdg-ninja
+
+yay -S mint-themes mint-y-icons mint-x-icons
 ```
 
 ## Cinnamon applets
 
 - Cinnamenu
 - QRedShift
+- darkMode
+
+## Cinnamon extensions
+
+- cinnamon-maximus
 
 ## Create packages
 - redshift-minimal-bin
+- mint-themes-bin
