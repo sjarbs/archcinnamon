@@ -97,5 +97,5 @@ yay -S xorg-xkill
 ```sh
 # bluetooth
 yay -S bluez bluez-utils
-systemctl start bluetooth.service
+systemctl enable bluetooth.service
 ```

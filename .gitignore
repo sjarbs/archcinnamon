@@ -9,8 +9,12 @@
 .config/micro/buffers/
 .config/nemo/desktop-metadata
 .config/pulse/
+.config/tool_state
 .config/vlc/
 .config/zoom.conf
+.dart-tool/
+.flutter
+.gradle/
 .gtkrc-2.0
 .local/share/applications/
 .local/share/cinnamon/applets/
@@ -27,10 +31,11 @@
 .local/share/pnpm/
 .local/share/recently-used.xbel
 .local/share/Trash/
-.local/state/
 .local/share/vlc/
+.local/state/
 .pki/
 .python_history
+.vscode/extensions/
 .Xauthority
 .xsession-errors
 .xsession-errors.old
