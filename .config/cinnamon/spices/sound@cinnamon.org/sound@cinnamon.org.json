@@ -14,7 +14,7 @@
         "default": false,
         "description": "Show Loop and Shuffle controls",
         "dependency": "playerControl",
-        "value": false
+        "value": true
     },
     "keyOpen": {
         "type": "keybinding",

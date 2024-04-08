@@ -9,6 +9,8 @@
 .config/micro/buffers/
 .config/nemo/desktop-metadata
 .config/pulse/
+.config/vlc/
+.config/zoom.conf
 .gtkrc-2.0
 .local/share/applications/
 .local/share/cinnamon/applets/
@@ -21,12 +23,17 @@
 .local/share/icons/
 .local/share/keyrings/
 .local/share/locale/
+.local/share/pnpm-store/
+.local/share/pnpm/
 .local/share/recently-used.xbel
 .local/share/Trash/
 .local/state/
+.local/share/vlc/
 .pki/
+.python_history
 .Xauthority
 .xsession-errors
 .xsession-errors.old
+.zoom/
 Desktop/
 var/

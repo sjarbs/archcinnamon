@@ -1,0 +1,30 @@
+#!/usr/bin/sh
+
+find $1 -type d \
+	\(	\
+		`#Astro` \
+		-name ".astro" -or \
+		-name "dist" -or \
+		`#Flutter` \
+		-name ".dart_tool" -or \
+		-name "build" -or \
+		`#Next` \
+		-name ".next" -or \
+		`#Elenventy` \
+		-name "node_modules" -or \
+		-name "_site" -or \
+		`#Jekyll` \
+		-name "_site" -or \
+		-name ".sass-cache" -or \
+		-name ".jekyll-cache" -or \
+		-name "_jekyll-metadata" -or \
+		`#Python` \
+		-name ".venv" -or \
+		-name "package.egg-info" -or \
+		-name ".pytest_cache" -or \
+		-name ".mypy_cache" -or \
+		-name "__pycache__" \
+	\) \
+	-prune \
+	-exec echo {} \; \
+	-exec trash {} \;
