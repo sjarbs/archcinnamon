@@ -8,8 +8,6 @@ micro /etc/makepkg.conf
 install yay-bin
 
 yay -S noto-fonts brave-bin
-
-suggested: noto-fonts-emoji libgnome-keyring
 ```
 - Brave:
 	- Welcome Setup
@@ -42,6 +40,10 @@ suggested: noto-fonts-emoji libgnome-keyring
 	- brave://settings/system
 		- Continue running background apps when Brave is closed: false
 		- Memory Saver: true
+	- uBlock Origin > Filter lists
+		- Cookie notices
+		- Social widgets
+		- Annoyances
 
 ```sh
 yay -S visual-studio-code-bin
@@ -67,7 +69,16 @@ gpg --edit-key <KEY_ID> # Press Tab for autocompletion
 yay -S glow xdg-ninja
 
 yay -S mint-themes mint-y-icons mint-x-icons
+
+yay -S tilda
+yay -S ttf-jetbrains-mono-nerd starship
+yay -S ttf-apple-emoji
+yay -S pkgfile fish # pkgfile: command-not-found hook
+sudo pkgfile --update
+yay -S xorg-xkill
 ```
+
+- https://github.com/StevenBlack/hosts
 
 ## Cinnamon applets
 

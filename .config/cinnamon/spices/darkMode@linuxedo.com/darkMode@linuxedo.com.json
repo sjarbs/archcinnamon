@@ -304,6 +304,7 @@
         "type": "combobox",
         "default": "none",
         "options": {
+            "hicolor": "hicolor",
             "Adwaita": "Adwaita",
             "Mint-X": "Mint-X",
             "Mint-X-Aqua": "Mint-X-Aqua",
@@ -331,7 +332,6 @@
             "Mint-Y-Teal": "Mint-Y-Teal",
             "Mint-Y-Yaru": "Mint-Y-Yaru",
             "default": "default",
-            "hicolor": "hicolor",
             "locolor": "locolor"
         },
         "description": "Icon theme",
@@ -341,6 +341,7 @@
         "type": "combobox",
         "default": "none",
         "options": {
+            "hicolor": "hicolor",
             "Adwaita": "Adwaita",
             "Mint-X": "Mint-X",
             "Mint-X-Aqua": "Mint-X-Aqua",
@@ -368,7 +369,6 @@
             "Mint-Y-Teal": "Mint-Y-Teal",
             "Mint-Y-Yaru": "Mint-Y-Yaru",
             "default": "default",
-            "hicolor": "hicolor",
             "locolor": "locolor"
         },
         "description": "Icon theme",
