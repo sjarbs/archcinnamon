@@ -93,3 +93,9 @@ yay -S xorg-xkill
 ## Create packages
 - redshift-minimal-bin
 - mint-themes-bin
+
+```sh
+# bluetooth
+yay -S bluez bluez-utils
+systemctl start bluetooth.service
+```
