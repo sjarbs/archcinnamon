@@ -145,11 +145,13 @@
         "value": [
             "favorite_apps",
             "all",
+            "chrome-apps",
             "Accessories",
             "Internet",
             "Development",
             "Administration",
-            "Preferences"
+            "Preferences",
+            "Multimedia"
         ]
     },
     "custom-menu-width": {
@@ -166,12 +168,26 @@
         "type": "generic",
         "default": [],
         "value": [
-            "nemo.desktop",
-            "cinnamon-settings-universal-access.desktop",
-            "cinnamon-settings.desktop",
-            "cinnamon-settings-themes.desktop",
+            "org.keepassxc.KeePassXC.desktop",
+            "org.gnome.FontManager.desktop",
+            "cinnamon-settings-fonts.desktop",
             "org.gnome.Terminal.desktop",
-            "brave-browser.desktop"
+            "brave-jckaldkomadaenmmgladeopgmfbahfjm-Default.desktop",
+            "nemo.desktop",
+            "brave-idpjdlienkibjdhjbbiidimehbdmekoa-Default.desktop",
+            "android-studio.desktop",
+            "code.desktop",
+            "brave-browser.desktop",
+            "virt-manager.desktop",
+            "thinkfan-ui.desktop",
+            "cinnamon-settings-workspaces.desktop",
+            "cinnamon-settings-desktop.desktop",
+            "brave-majiogicmcnmdhhlgmkahaleckhjbmlk-Default.desktop",
+            "brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop",
+            "brave-pjibgclleladliembfgfagdaldikeohf-Default.desktop",
+            "cinnamon-settings-windows.desktop",
+            "Zoom.desktop",
+            "blueberry.desktop"
         ]
     },
     "search-start-folder": {

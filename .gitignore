@@ -42,3 +42,14 @@
 .zoom/
 Desktop/
 var/
+.android/
+Android/
+.config/Google/
+.java
+.local/share/Android Open Source Project/
+.local/share/Google/
+.dartServer
+.pub-cache
+.emulator_console_auth_token
+.dotfiles
+.config/cinnamon/spices/qredshift@quintao/qredshift@quintao.json
