@@ -145,13 +145,13 @@
         "value": [
             "favorite_apps",
             "all",
-            "chrome-apps",
             "Accessories",
             "Internet",
             "Development",
             "Administration",
             "Preferences",
-            "Multimedia"
+            "Multimedia",
+            "Other"
         ]
     },
     "custom-menu-width": {
@@ -168,6 +168,7 @@
         "type": "generic",
         "default": [],
         "value": [
+            "brave-browser.desktop",
             "org.keepassxc.KeePassXC.desktop",
             "org.gnome.FontManager.desktop",
             "cinnamon-settings-fonts.desktop",
@@ -177,7 +178,6 @@
             "brave-idpjdlienkibjdhjbbiidimehbdmekoa-Default.desktop",
             "android-studio.desktop",
             "code.desktop",
-            "brave-browser.desktop",
             "virt-manager.desktop",
             "thinkfan-ui.desktop",
             "cinnamon-settings-workspaces.desktop",
