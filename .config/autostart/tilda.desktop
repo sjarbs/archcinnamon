@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Tilda
+Comment=Terminal Emulator
+Exec=/usr/bin/tilda
+Icon=tilda
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;System;TerminalEmulator;
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_US]=Tilda
+Comment[en_US]=Terminal Emulator
+X-GNOME-Autostart-Delay=0
