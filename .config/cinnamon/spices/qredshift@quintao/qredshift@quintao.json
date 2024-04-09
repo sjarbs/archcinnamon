@@ -221,7 +221,7 @@
         "units": "K",
         "step": 5,
         "description": "Temperature",
-        "value": 2000
+        "value": 3931
     },
     "dayBrightness": {
         "type": "spinbutton",
@@ -344,13 +344,13 @@
         "type": "entry",
         "default": "0",
         "description": "Latitude",
-        "value": "0"
+        "value": "-34.6033"
     },
     "locationLongitude": {
         "type": "entry",
         "default": "0",
         "description": "Longitude",
-        "value": "0"
+        "value": "-58.3816"
     },
     "aboutLocation": {
         "type": "label",
