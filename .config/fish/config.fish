@@ -14,7 +14,7 @@ alias nano='micro'
 alias vim='nvim'
 
 # yay
-alias yay-install='yay --sync --needed --nodiffmenu --nocleanmenu --noconfirm'
+alias yay-install='yay -S --needed --noconfirm'
 alias yay-uninstall='yay -Rsu'
 alias yay-update='yay --noconfirm'
 alias yay-ls='yay -Qe | awk "{print \$1}"'
@@ -22,6 +22,7 @@ alias yay-aur='yay -Qqm'
 alias yay-cleanup='sudo yay -Rsn $(yay -Qdtq)'
 alias yay-mirrors='sudo reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist'
 alias yay-unlock='sudo rm /var/lib/pacman/db.lck'
+alias yay-cache='yay -Scc'
 
 # utils
 alias pc='pass -c'

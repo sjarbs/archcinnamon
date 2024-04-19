@@ -2,10 +2,6 @@
 # ~/.bash_profile
 #
 
-# PATH
-export PATH="$PATH:$PNPM_HOME"
-export PATH="$PATH:$HOME/.local/bin"
-
 # Default programs
 export EDITOR="micro"
 export BROWSER="brave"
@@ -18,7 +14,7 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_RUNTIME_DIR="/run/user/$UID"
 
-export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
+#export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 #export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority" # This line will break some DMs.
 
 # XDG_CONFIG_HOME
@@ -33,7 +29,7 @@ export WGETRC="$XDG_CONFIG_HOME/wget/wgetrc"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
 # XDG_DATA_HOME
-export ANDROID_SDK_HOME="$XDG_CONFIG_HOME/android"
+#export ANDROID_SDK_HOME="$XDG_CONFIG_HOME/android"
 export CARGO_HOME="$XDG_DATA_HOME/cargo"
 export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"
@@ -51,3 +47,7 @@ export WINEPREFIX="$XDG_DATA_HOME/wineprefixes/default"
 export GOMODCACHE="$XDG_CACHE_HOME/go/mod"
 export LESSHISTFILE="-"
 export NODE_REPL_HISTORY="$XDG_CACHE_HOME/node_repl_history"
+
+# PATH
+export PATH="$PATH:$PNPM_HOME"
+export PATH="$PATH:$HOME/.local/bin"
